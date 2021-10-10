@@ -1,2 +1,5 @@
 # recipe-project
-this is a simple simple HTML project from Odin Project. i will be working on this project more as i move along adding some CSS and javascript to it
+
+#My Home Recipes
+
+This is a simple simple HTML project from Odin Project. I will be working on this project more as I move along adding some CSS and javascript to it. Stay tuned....
