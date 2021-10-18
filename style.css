@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Indie+Flower&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Indie+Flower&family=Quicksand:wght@300&display=swap');
-html {
+* {
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -21,15 +21,65 @@ h3 {
 .heading {
     font-size: 62px;
     font-family: 'Amatic SC', cursive;
-}
-
-.heading,
-.recipe-title {
     text-align: center;
+    color: aliceblue;
 }
 
 h3 {
-    font-weight: bold;
+    font-weight: bolder;
+    color: darkgoldenrod;
+}
+
+.nav-list {
+    background-color: lemonchiffon;
+    box-shadow: 0px 0px 10px var(black);
+    margin: 0;
+    padding: 1rem 0;
+    border: radius 0.2em;
+    ;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item {
+    list-style: none;
+    margin-right: 2rem;
+}
+
+.nav-item a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+.nav-item a:hover {
+    color: cadetblue;
+    transition: all 200ms ease-in;
+}
+
+.nav-item:first-child {
+    margin-right: auto;
+    margin-left: 2rem;
+}
+
+.container {
+    width: 100%;
+    height: fit-content;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://cdn.pixabay.com/photo/2016/12/26/17/28/spaghetti-1932466__480.jpg);
+    background-position: center;
+    background-size: auto;
+}
+
+.content {
+    width: 100%;
+    height: 100vmax;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://cdn.pixabay.com/photo/2016/12/26/17/28/spaghetti-1932466__480.jpg);
+    background-position: center;
+    background-size: contain;
 }
 
 .content {
@@ -47,6 +97,12 @@ div img {
 
 .leftside img {
     border-radius: 10px;
+}
+
+.item {
+    color: aliceblue;
+    font-size: larger;
+    font-weight: bolder;
 }
 
 .item {
@@ -74,14 +130,18 @@ div img {
     flex-grow: 3;
 }
 
+.ingredients-container {
+    line-height: 2em;
+}
+
 .rightside {
-    display: flex;
-    flex-direction: column;
+    color: antiquewhite;
+    line-height: 2em;
 }
 
 .topright {
     border-radius: 10px;
-    border: 1px solid rgb(41, 41, 41);
+    border: 0px solid rgb(41, 41, 41);
     padding: 0 20px 0px;
     height: 400px;
 }
@@ -89,7 +149,7 @@ div img {
 .steps-container {
     margin-top: 20px;
     border-radius: 10px;
-    border: 1px solid rgb(71, 71, 71);
+    border: 0px solid rgb(71, 71, 71);
     padding: 0 20px 0px;
     height: 607px;
 }
@@ -97,27 +157,37 @@ div img {
 .icons {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    font-size: 20px;
+    justify-content: right;
+    font-size: 30px;
     gap: 20px;
+}
+
+.icons:hover {
+    color: cadetblue;
+    transition: all 200ms ease-in;
 }
 
 .fa-home {
     color: black;
-    font-size: 27px;
+    font-size: 30px;
+}
+
+.fa-egg {
+    color: black;
+    font-size: 30px;
 }
 
 .fa-twitter-square {
     color: aqua;
-    font-size: 27px;
+    font-size: 30px;
 }
 
 .fa-youtube {
     color: red;
-    font-size: 27px;
+    font-size: 30px;
 }
 
 .fa-facebook-square {
     color: #4267B2;
-    font-size: 27px;
+    font-size: 30px;
 }
