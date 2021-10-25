@@ -3,11 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Indie+Flower&family=Quicksand:wght@300&display=swap');
 * {
     font-family: 'Quicksand', sans-serif;
-}
-
-h1,
-h2,
-h3 {
     font-weight: 300;
 }
 
@@ -33,7 +28,7 @@ h3 {
 .nav-list {
     background-color: lemonchiffon;
     box-shadow: 0px 0px 10px var(black);
-    margin: 0;
+    margin: 30px;
     padding: 1rem 0;
     border: radius 0.2em;
     ;
@@ -41,7 +36,7 @@ h3 {
 
 .nav-list {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
 }
 
@@ -160,6 +155,7 @@ div img {
     justify-content: right;
     font-size: 30px;
     gap: 20px;
+    margin: auto;
 }
 
 .icons:hover {
@@ -190,4 +186,18 @@ div img {
 .fa-facebook-square {
     color: #4267B2;
     font-size: 30px;
+}
+
+.fa-utensils {
+    color: goldenrod;
+    font-size: 20px;
+}
+
+.fa-clock {
+    color: greenyellow;
+    font-size: 20px;
+}
+
+tr>*+* {
+    padding-left: 4em;
 }
